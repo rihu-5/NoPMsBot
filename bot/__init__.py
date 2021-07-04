@@ -74,9 +74,6 @@ DEFAULT_START_TEXT = (
 "Thanks for using me"
 )
 
-START_IMG = os.environ.get('START_IMG', None)if START_IMG is None: img = "https://telegra.ph/file/fc734b227985a1524e715.jpg")
-
- 
 /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
